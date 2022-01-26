@@ -1,0 +1,293 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0;
+
+}
+.unipad{
+    padding: 0 7%;
+    
+}
+#topbar{
+    background-color: grey;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+    
+}
+#tollfree{
+    float: left;
+    color: white;
+    margin: 0;
+}
+#social{
+    float: right;
+}
+.fab{
+    background-color: white;
+    color: grey;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+#logo img{
+    width: 200px;
+    margin: 25px 0px;
+}
+#navbar{
+background-color: hotpink;
+padding: 0;
+
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 20px 0px;
+    padding-right: 35px;
+   
+}
+#navbar ul{
+   margin:0;
+   padding-left: 80px;
+  
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#poster{
+    background-image: url(images/download.jpg);
+    height: 500px;
+   display: flex;
+   background-size:cover;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+/* why us section */
+#why{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+/* contact */
+#contact{
+    background-color: blueviolet;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+}
+#subscribe{
+    background-color: cornflowerblue;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+}
+.newsletter{
+width: 50%;
+float: left;
+}
+.newsletter h1{
+    
+    float: right;
+    }
+/* .email{
+width: 50%;
+float: left;
+padding-top: 20px;
+} */
+.newsletter form{
+    padding-top: 25px;
+}
+.newsletter input[type="text"]{
+    padding:10px;
+    margin-left: 150px;
+}
+#contactbtn1{
+    background-color: white;
+    color: tomato;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-transform: capitalize;
+
+
+}
+
+
+.section33 a{
+    color: brown;
+}
+#contactbtn{
+    background-color: white;
+    color: tomato;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: center;
+
+}
+
+.redheading{
+    color: tomato;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.section33 h1{
+    color: tomato;
+}
+.section33 p{
+    color: black;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+}
+#navbar ul #mobile-cross, #mobile-menu {
+display: none;
+}
+
+#links{
+color: white;
+background-color: grey;
+overflow: auto;
+}
+.div33{
+width: 33.33%;
+float: left;
+padding:25px 50px;
+box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+#footermenus
+{
+    list-style-type: none;
+    padding:0;
+}
+#footermenus  li{
+    padding-bottom: 10px;
+}
+#footermenus li a{
+    text-decoration: none;
+    color: white;
+}
+#dec{
+    padding-left: 110px;
+}
+#copyright{
+    background-color: violet;
+    padding : 5px;
+  text-align: center;
+}
+/* responsive */
+
+@media only screen and (max-width:768px){
+   #navbar ul li a{
+       font-size: 20px;
+
+   } 
+   #navbar ul li{
+       padding-right: 12px;
+   }
+}
+@media only screen and (max-width:500px){
+    
+ .section33, .section70 , .div33 {
+     width: 100%;
+ }
+ .newsletter{
+    width: 100%;
+}
+.newsletter input[type="text"]{
+    padding:10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.newsletter form {
+    padding-top: 10px;
+}
+#dec {
+    padding-left: 50px;
+}
+.newsletter h1 {
+    text-align: center;
+}
+.section30 {
+    /* width: 30%; */
+    /* float: left; */
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+#logo img {
+    width: 200px;
+    margin: 25px 0px;
+    
+}
+#navbar {
+    background-color: hotpink;
+    padding: 0;
+    top: 0px;
+    position: absolute;
+    height: 100vh;
+    left: -280px;
+    transition: all 0.5s ease;
+}
+#navbar ul li {
+    padding-right: 50px;
+    display: block;
+    align-items: left;
+    border-bottom: 1px solid rgb(194, 191, 191);
+}
+#navbar ul {
+    padding-left: 10px;
+}
+.fa-times-circle{
+    color: white; font-size: 25px;
+}
+
+#mobile-cross{
+    text-align: right;
+ 
+}
+#mobile-menu{
+    background-color: #d37e4f;
+    text-align: center;
+    padding:  15px;
+    color:white;
+    font-size: 20px;
+}
+.fa-bars{
+    color:white;
+
+}
+#navbar ul #mobile-cross, #mobile-menu {
+    display: block;
+    }
+}
